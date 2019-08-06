@@ -23,7 +23,7 @@ const fetch = require('node-fetch');
 const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
 
 // CODELAB: Change this to add a delay (ms) before the server responds.
-const FORECAST_DELAY = 0;
+const FORECAST_DELAY = 5000;
 
 // CODELAB: If running locally, set your Dark Sky API key here
 const API_KEY = '7e4064bbe4a1e8c5774be835bb71a9c3';
